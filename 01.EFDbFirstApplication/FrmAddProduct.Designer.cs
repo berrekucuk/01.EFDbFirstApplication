@@ -47,6 +47,7 @@
             btnAdd.TabIndex = 17;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // txtUnitPrice
             // 
@@ -131,6 +132,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "FrmAddProduct";
             Text = "FrmAddProduct";
+            Load += FrmAddProduct_Load;
             ResumeLayout(false);
             PerformLayout();
         }
